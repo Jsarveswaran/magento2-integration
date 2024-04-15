@@ -1,5 +1,5 @@
 {
-    "name": "Jsarveswaran/magento2-integration",
+    "name": "jsarveswaran/magento2-integration",
     "description": "Connect Magento2 store with Saleswarp",
     "require": {
        "php": ">=7.2.0",
