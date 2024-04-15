@@ -1,5 +1,5 @@
 {
-    "name": "Jsarveswaran/magento2_integration",
+    "name": "Jsarveswaran/magento2-integration",
     "description": "Connect Magento2 store with Saleswarp",
     "require": {
        "php": "~7.2.0|~7.3.0",
@@ -13,5 +13,7 @@
        "psr-4": {
           "Saleswarp\\StoreConnector\\": ""
        }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
  }
