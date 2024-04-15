@@ -13,7 +13,5 @@
        "psr-4": {
           "Saleswarp\\StoreConnector\\": ""
        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
  }
