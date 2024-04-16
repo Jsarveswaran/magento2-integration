@@ -1,7 +1,0 @@
-<integrations>
-    <integration name="StoreConnector">
-       <email>sarvesh.avgi@gmail.com</email>
-       <endpoint_url>http://localhost:3000</endpoint_url>
-       <identity_link_url>http://localhost:3000</identity_link_url>
-    </integration>
- </integrations>
