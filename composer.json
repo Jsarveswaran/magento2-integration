@@ -3,11 +3,11 @@
     "description": "Connect Magento2 store with SalesWarp",
     "require": {},
     "type": "magento2-module",
-    "version": "1.1",
+    "version": "1.2",
     "autoload": {
        "files": [ "registration.php" ],
        "psr-4": {
-          "Saleswarp\\SalesWarpShip\\": ""
+          "Saleswarp\\SaleswarpShip\\": ""
        }
     },	
     "minimum-stability": "stable"

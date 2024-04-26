@@ -1,5 +1,5 @@
 <?php
-namespace Saleswarp\SalesWarpShip\Setup;
+namespace Saleswarp\SaleswarpShip\Setup;
 
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
@@ -29,6 +29,6 @@ class InstallData implements InstallDataInterface
 
     public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
     {
-        $this->integrationManager->processIntegrationConfig(['SalesWarpShip']);
+        $this->integrationManager->processIntegrationConfig(['SaleswarpShip']);
     }
 }
