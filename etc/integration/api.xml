@@ -1,5 +1,5 @@
 <integrations>
-    <integration name="StoreConnector">
+    <integration name="SalesWarpShip">
         <resources>
             <!-- To grant permission to Magento_Log::online, its parent Magento_Customer::customer needs to be declared as well-->
             <resource name="Magento_Catalog::catalog" />
@@ -17,6 +17,7 @@
             <resource name="Magento_Sales::ship" />
             <resource name="Magento_Sales::cancel" />
             <resource name="Magento_Sales::shipment" />
+            <resource name="Magento_Sales::creditmemo" />
         </resources>
     </integration>
 </integrations>

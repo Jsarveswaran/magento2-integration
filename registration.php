@@ -2,6 +2,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
 \Magento\Framework\Component\ComponentRegistrar::MODULE,
-'Saleswarp_StoreConnector',
+'Saleswarp_SalesWarpShip',
 __DIR__
 );

@@ -1,16 +1,13 @@
 {
-    "name": "saleswarp/store-connector",
-    "description": "Connect Magento2 store with Saleswarp",
-    "require": {
-       "php": "~8.1.0||~8.2.0||~8.3.0",
-       "magento/framework": "103.0.*"
-    },
+    "name": "saleswarp/saleswarp-ship",
+    "description": "Connect Magento2 store with SalesWarp",
+    "require": {},
     "type": "magento2-module",
     "version": "1.1",
     "autoload": {
        "files": [ "registration.php" ],
        "psr-4": {
-          "Saleswarp\\StoreConnector\\": ""
+          "Saleswarp\\SalesWarpShip\\": ""
        }
     },	
     "minimum-stability": "stable"
