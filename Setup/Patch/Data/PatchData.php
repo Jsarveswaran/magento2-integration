@@ -27,14 +27,14 @@ class PatchData implements DataPatchInterface
      * @param InstallData $installData
      * @param ConfigBasedIntegrationManager $integrationManager
      */
-    public function __construct(InstallData $installData,ConfigBasedIntegrationManager $integrationManager)
+    public function __construct(InstallData $installData, ConfigBasedIntegrationManager $integrationManager)
     {
         $this->installData = $installData;
         $this->integrationManager = $integrationManager;
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function apply(ModuleContextInterface $context)
     {
@@ -43,7 +43,7 @@ class PatchData implements DataPatchInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public static function getDependencies()
     {
@@ -51,7 +51,7 @@ class PatchData implements DataPatchInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public static function getVersion()
     {
