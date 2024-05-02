@@ -1,4 +1,6 @@
 <?php
+// phpcs:ignore Magento2.Legacy.InstallUpgrade.ObsoleteInstallDataScript
+
 namespace Saleswarp\SaleswarpShip\Setup;
 
 use Magento\Framework\Setup\ModuleContextInterface;
