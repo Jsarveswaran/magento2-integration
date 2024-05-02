@@ -48,4 +48,12 @@ class PatchData implements DataPatchInterface
     {
         return '1.0.0';
     }
+
+    /**
+     * @inheritdoc
+     */
+    public function getAliases()
+    {
+        return [];
+    }
 }
