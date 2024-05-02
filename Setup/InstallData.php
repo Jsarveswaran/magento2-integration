@@ -6,9 +6,6 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Integration\Model\ConfigBasedIntegrationManager;
 use Magento\Framework\Setup\InstallDataInterface;
 
-/**
- * @codeCoverageIgnore
- */
 class InstallData implements InstallDataInterface
 {
     /**
@@ -25,7 +22,11 @@ class InstallData implements InstallDataInterface
     }
 
     /**
-     * {@inheritdoc}
+     * Installs data for a module
+     *
+     * @param ModuleDataSetupInterface $setup
+     * @param ModuleContextInterface $context
+     * @return void
      */
     public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
     {
