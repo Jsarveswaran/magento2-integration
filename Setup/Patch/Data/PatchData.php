@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Saleswarp\SaleswarpShip\Setup\Patch\Data;
 
-use Magento\Framework\Setup\ModuleContextInterface;
+use Magento\Integration\Model\ConfigBasedIntegrationManager;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 
 /**
