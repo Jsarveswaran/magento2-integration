@@ -1,6 +1,4 @@
 <?php
-// phpcs:ignore Magento2.Legacy.InstallUpgrade.ObsoleteInstallDataScript
-
 namespace Saleswarp\SaleswarpShip\Setup;
 
 use Magento\Framework\Setup\ModuleContextInterface;
@@ -8,7 +6,7 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Integration\Model\ConfigBasedIntegrationManager;
 use Magento\Framework\Setup\InstallDataInterface;
 
-class InstallData implements InstallDataInterface
+class PatchData implements InstallDataInterface
 {
     /**
      * @var ConfigBasedIntegrationManager
