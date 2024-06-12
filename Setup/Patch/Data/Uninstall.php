@@ -24,6 +24,9 @@ class Uninstall implements DataPatchInterface
     private $_eavSetupFactory;
     
     private $_mDSetup;
+
+    private $setup;
+
     /**
      * Init
      *
