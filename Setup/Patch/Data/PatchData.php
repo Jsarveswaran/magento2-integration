@@ -13,7 +13,7 @@ use Magento\Eav\Setup\EavSetupFactory;
 /**
  * Setup data patch class to change config path
  */
-class PatchData implements DataPatchInterface
+class PatchData implements DataPatchInterface, PatchRevertableInterface
 {
 
     /**
