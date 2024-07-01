@@ -57,14 +57,14 @@ class PatchData implements DataPatchInterface, PatchRevertableInterface
      */
     public function revert()
     {
-        $this->moduleDataSetup->getConnection()->startSetup();
+        $this->moduleDataSetup->getConnection();
 
-        $eavSetup = $this->eavSetupFactory->create(['setup' => $this->moduleDataSetup]);
+  //      $eavSetup = $this->eavSetupFactory->create(['setup' => $this->moduleDataSetup]);
 
-        $eavSetup->query("DELETE FROM `integration` WHERE `integration`.`name` LIKE 'SaleswarpShipDev%'");
-		$eavSetup->query("DELETE FROM `patch_list` WHERE `patch_list`.`patch_name` LIKE 'Saleswarp\SaleswarpShipDev%'");
+        $this->moduleDataSetup->getConnection()->query("DELETE FROM `integration` WHERE `integration`.`name` LIKE 'SaleswarpShipDev%'");
+		$this->moduleDataSetup->getConnection()->query("DELETE FROM `patch_list` WHERE `patch_list`.`patch_name` LIKE 'Saleswarp\SaleswarpShipDev%'");
  
-        $this->moduleDataSetup->getConnection()->endSetup();
+    //    $this->moduleDataSetup->getConnection()->endSetup();
     }
 
     /**
